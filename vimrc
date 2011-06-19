@@ -1,9 +1,13 @@
 " no vi compatibility
 set nocompatible
 
+" system turns on filetype. force it to off before pathogen
+filetype off
+
 " use pathogen to handle all plugins
 call pathogen#runtime_append_all_bundles()
 
+" switching it on again
 filetype plugin indent on
 syntax on
 
