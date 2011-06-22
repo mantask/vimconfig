@@ -9,6 +9,9 @@ Clone my repo and use it as your .vim
 
 ```bash
 git clone git://github.com/luckydev/vimconfig.git ~/.vim
+cd ~/.vim
+git submodule init
+git submodule update
 
 ```
 
