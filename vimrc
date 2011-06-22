@@ -29,3 +29,6 @@ set nolist
 " leader key will be comma ( , )
 let mapleader = ","
 
+"status line settings
+set laststatus=2
+set statusline=%t\ %{fugitive#statusline()}\ %l/%L\ %m\ %r
