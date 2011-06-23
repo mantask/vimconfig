@@ -15,8 +15,17 @@ git submodule update
 
 ```
 
-Done.
+For Command-T plugin (similar to textmate command-T)
 
+```bash
+cd ~/.vim/bundle/command-t/ruby/command-t
+rvm system ruby extconf.rb
+make
+```
+
+Note: By default command-T plugin will active with <leader>T key press but you can always remap it to command-T key.
+
+Done.
 
 ### Updates 
 
