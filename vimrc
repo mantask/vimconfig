@@ -6,6 +6,7 @@ filetype off
 
 " use pathogen to handle all plugins
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 " switching it on again
 filetype plugin indent on
