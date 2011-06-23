@@ -12,3 +12,9 @@ set guifont=Monaco:h12
 
 " turn on line numbering
 set number
+
+" Don't beep
+set visualbell
+
+" Default gui color scheme
+color ir_black
