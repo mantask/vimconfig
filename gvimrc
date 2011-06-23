@@ -17,4 +17,4 @@ set number
 set visualbell
 
 " Default gui color scheme
-color ir_black
+color navajo-night
