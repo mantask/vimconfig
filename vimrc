@@ -20,12 +20,12 @@ set nowritebackup
 set noswapfile
 set wildmenu
 
-"according to rails source code conventions
-set ts=2
-set sts=2
-set sw=2
+" Whitespace stuff
+set nowrap
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
-set nolist
 
 " leader key will be comma ( , )
 let mapleader = ","
@@ -33,3 +33,6 @@ let mapleader = ","
 "status line settings
 set laststatus=2
 set statusline=%t\ %{fugitive#statusline()}\ %l/%L\ %m\ %r
+
+" Set encoding
+set encoding=utf-8

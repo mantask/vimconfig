@@ -8,7 +8,7 @@ set autochdir
 set listchars=tab:▸\ ,eol:¬
 
 " set font to Monaco 12pt
-set guifont=Monaco:h12
+set guifont=Monaco:h11
 
 " turn on line numbering
 set number
@@ -17,4 +17,13 @@ set number
 set visualbell
 
 " Default gui color scheme
-color navajo-night
+color ir_black
+
+" Command-/ to toggle comments
+map <D-/> <plug>NERDCommenterToggle<CR>
+imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
+
+" Command-T for CommandT
+macmenu &File.New\ Tab key=<D-T>
+map <D-t> :CommandT<CR>
+imap <D-t> <Esc>:CommandT<CR>
